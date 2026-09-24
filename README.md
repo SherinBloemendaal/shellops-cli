@@ -52,33 +52,33 @@ The project root is that git root. `so` loads `.env` from it. `APP_ENV=dev` sele
 
 `so` with no command prints colored help.
 
-| Command                    | What it does                                                                 |
-| -------------------------- | ---------------------------------------------------------------------------- |
-| `so compose ...`           | Run `docker compose`. Sets `UID`, `GID`, and `USER` when they are unset.    |
-| `so build`                 | Build each `*.Dockerfile`, dependencies first, and tag it `latest`.         |
-| `so cc`                    | Clear caches in three phases, with three attempts each.                     |
-| `so console`, `so c`       | `bin/console` in the php service.                                           |
-| `so composer`, `so cp`     | Composer. `install` keeps `--optimize-autoloader --classmap-authoritative`. |
-| `so dump`                  | `composer dump-autoload`.                                                    |
-| `so csf`, `so csfixer`     | PHP CS Fixer.                                                                |
-| `so phpstan`               | PHPStan.                                                                     |
-| `so phan`                  | Phan. PHP paths become an include-analysis file list.                       |
-| `so phpunit`               | PHPUnit.                                                                     |
-| `so rector`                | Rector.                                                                      |
-| `so phpmd`                 | PHPMD.                                                                       |
-| `so fixtures`, `so f`      | Load Doctrine fixtures.                                                      |
-| `so reset-database`, `so rd` | Drop the database, migrate, and load fixtures.                             |
-| `so force-drop-database`, `so fdd` | `dropdb -f` against `POSTGRES_DB`.                                   |
-| `so installer`             | Composer install, bring the stack up, clear caches, and reset the database. |
-| `so yarn`                  | Yarn inside the vue service.                                                 |
-| `so debug`                 | Show the detected root, env, identity, and build order.                     |
-| `so sort-dotenv FILE`      | Sort a dotenv file in place.                                                 |
-| `so keypair DIR [SUFFIX]`  | Write an OpenSSL private/public key pair.                                   |
-| `so randomstr LENGTH`      | Print a random alphanumeric string.                                         |
-| `so config`                | Get, set, list, and unset settings.                                          |
-| `so release`               | Bump a version, commit, and push one annotated release tag.                 |
-| `so update`                | Download and install the latest `so` release.                               |
-| `so github`                | Open the GitHub repository in the browser.                                  |
+| Command                            | What it does                                                                |
+| ---------------------------------- | --------------------------------------------------------------------------- |
+| `so compose ...`                   | Run `docker compose`. Sets `UID`, `GID`, and `USER` when they are unset.    |
+| `so build`                         | Build each `*.Dockerfile`, dependencies first, and tag it `latest`.         |
+| `so cc`                            | Clear caches in three phases, with three attempts each.                     |
+| `so console`, `so c`               | `bin/console` in the php service.                                           |
+| `so composer`, `so cp`             | Composer. `install` keeps `--optimize-autoloader --classmap-authoritative`. |
+| `so dump`                          | `composer dump-autoload`.                                                   |
+| `so csf`, `so csfixer`             | PHP CS Fixer.                                                               |
+| `so phpstan`                       | PHPStan.                                                                    |
+| `so phan`                          | Phan. PHP paths become an include-analysis file list.                       |
+| `so phpunit`                       | PHPUnit.                                                                    |
+| `so rector`                        | Rector.                                                                     |
+| `so phpmd`                         | PHPMD.                                                                      |
+| `so fixtures`, `so f`              | Load Doctrine fixtures.                                                     |
+| `so reset-database`, `so rd`       | Drop the database, migrate, and load fixtures.                              |
+| `so force-drop-database`, `so fdd` | `dropdb -f` against `POSTGRES_DB`.                                          |
+| `so installer`                     | Composer install, bring the stack up, clear caches, and reset the database. |
+| `so yarn`                          | Yarn inside the vue service.                                                |
+| `so debug`                         | Show the detected root, env, identity, and build order.                     |
+| `so sort-dotenv FILE`              | Sort a dotenv file in place.                                                |
+| `so keypair DIR [SUFFIX]`          | Write an OpenSSL private/public key pair.                                   |
+| `so randomstr LENGTH`              | Print a random alphanumeric string.                                         |
+| `so config`                        | Get, set, list, and unset settings.                                         |
+| `so release`                       | Bump a version, commit, and push one annotated release tag.                 |
+| `so update`                        | Download and install the latest `so` release.                               |
+| `so github`                        | Open the GitHub repository in the browser.                                  |
 
 `so compose` passes every argument through and returns the compose exit code. In dev, when stdin is a terminal and a local image is missing, it asks whether to build.
 
