@@ -7,13 +7,19 @@
 ### macOS / Linux
 
 ```bash
+curl -fsSL https://sherin.dev/shellops/install.sh | bash
+```
+
+Same script from GitHub, if sherin.dev is unavailable:
+
+```bash
 curl -fsSL https://raw.githubusercontent.com/SherinBloemendaal/shellops-cli/main/install.sh | bash
 ```
 
 Pin a release with `bash -s`:
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/SherinBloemendaal/shellops-cli/main/install.sh | bash -s v1.0.0
+curl -fsSL https://sherin.dev/shellops/install.sh | bash -s v1.0.0
 ```
 
 The script installs `so` to `~/.shellops/bin` (override with `SHELLOPS_INSTALL`). It adds that directory to your shell config when the directory is not already on `PATH`. Run it again to upgrade in place.
