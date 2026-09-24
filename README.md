@@ -10,12 +10,6 @@
 curl -fsSL https://sherin.dev/shellops/install.sh | bash
 ```
 
-Same script from GitHub, if sherin.dev is unavailable:
-
-```bash
-curl -fsSL https://raw.githubusercontent.com/SherinBloemendaal/shellops-cli/main/install.sh | bash
-```
-
 Pin a release with `bash -s`:
 
 ```bash
