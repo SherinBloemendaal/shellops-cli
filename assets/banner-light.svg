@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="360" viewBox="0 0 1280 360" role="img" aria-label="ShellOps: DevOps for your Compose + PHP project, from the shell">
+  <title>ShellOps: DevOps for your Compose + PHP project, from the shell</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#010402"/><stop offset="1" stop-color="#04100A"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#4ADE80"/><stop offset="1" stop-color="#22C55E"/>
+    </linearGradient>
+    <linearGradient id="wire" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#166534" stop-opacity="0.95"/><stop offset="1" stop-color="#4ADE80" stop-opacity="0.9"/>
+    </linearGradient>
+    <radialGradient id="glow1"><stop offset="0" stop-color="#4ADE80" stop-opacity="0.14"/><stop offset="1" stop-color="#4ADE80" stop-opacity="0"/></radialGradient>
+    <radialGradient id="glow2"><stop offset="0" stop-color="#166534" stop-opacity="0.14"/><stop offset="1" stop-color="#166534" stop-opacity="0"/></radialGradient>
+    <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.2" fill="#22C55E" fill-opacity="0.06"/>
+    </pattern>
+    <pattern id="scan" width="4" height="3" patternUnits="userSpaceOnUse">
+      <rect width="4" height="1" fill="#000000" fill-opacity="0.35"/>
+    </pattern>
+    <filter id="phosphor" x="-10%" y="-40%" width="120%" height="180%">
+      <feGaussianBlur stdDeviation="3.2" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="frame"><rect width="1280" height="360" rx="14"/></clipPath>
+  </defs>
+  <g clip-path="url(#frame)">
+    <rect width="1280" height="360" fill="url(#bg)"/>
+    <rect width="1280" height="360" fill="url(#dots)"/>
+    <circle cx="1000" cy="180" r="320" fill="url(#glow1)"/><circle cx="1220" cy="340" r="220" fill="url(#glow2)"/><circle cx="110" cy="10" r="220" fill="url(#glow2)"/>
+  </g>
+  <rect x="0.75" y="0.75" width="1278.5" height="358.5" rx="13.25" fill="none" stroke="#0F2A1A" stroke-width="1.5"/>
+  <text x="72" y="104" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="14" font-weight="600" fill="#6FA383" letter-spacing="1.5"># docker compose · php tooling · releases</text>
+  <text x="68" y="184" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="76" font-weight="800" letter-spacing="-3" fill="#D1FAE0" filter="url(#phosphor)">Shell<tspan fill="url(#accent)">Ops</tspan></text>
+  <text x="72" y="232" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="19" font-weight="400" fill="#6FA383">DevOps for your Compose + PHP project, from the shell.</text>
+  <rect x="72" y="264" width="136.14999999999998" height="42" rx="6" fill="#03140A" stroke="#14532D"/>
+  <text x="110" y="290.5" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="15.5" font-weight="600" fill="#4ADE80">$ so cc</text>
+  <rect x="182.14999999999998" y="276" width="9" height="18" fill="#4ADE80" filter="url(#phosphor)"/>
+  <rect x="760" y="57" width="460" height="256" rx="6" fill="#000000" fill-opacity="0.6"/><rect x="760" y="52" width="460" height="256" rx="6" fill="#020A05" fill-opacity="1" stroke="#14532D" stroke-width="1.25"/>
+  <path d="M760 58 a6 6 0 0 1 6 -6 h448 a6 6 0 0 1 6 6 v30 h-460 z" fill="#0B2616"/>
+  <circle cx="782" cy="70" r="5.5" fill="#FF5F57"/>
+  <circle cx="800" cy="70" r="5.5" fill="#FEBC2E"/>
+  <circle cx="818" cy="70" r="5.5" fill="#28C840"/>
+  <text x="990.0" y="75" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12.5" font-weight="400" fill="#3F6B50" text-anchor="middle">~/projects/api</text>
+  <text x="786" y="122" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="15" font-weight="700" fill="#4ADE80">$</text>
+  <text x="808" y="122" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="15" font-weight="600" fill="#D1FAE0">so cc</text>
+  <text x="786" y="150" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="15" font-weight="700" fill="#4ADE80">✓</text>
+  <text x="808" y="150" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="15" font-weight="400" fill="#6FA383">filesystem + Symfony caches</text>
+  <text x="786" y="178" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="15" font-weight="700" fill="#4ADE80">✓</text>
+  <text x="808" y="178" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="15" font-weight="400" fill="#6FA383">redis</text>
+  <text x="786" y="206" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="15" font-weight="700" fill="#4ADE80">✓</text>
+  <text x="808" y="206" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="15" font-weight="400" fill="#6FA383">php reload + messenger workers</text>
+  <text x="786" y="234" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="15" font-weight="700" fill="#4ADE80">$</text>
+  <text x="808" y="234" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="15" font-weight="600" fill="#D1FAE0">so release</text>
+  <text x="786" y="262" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="15" font-weight="700" fill="#FACC15">?</text>
+  <text x="808" y="262" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="15" font-weight="400" fill="#6FA383">bump  patch · minor · major</text>
+  <text x="786" y="290" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="15" font-weight="700" fill="#4ADE80">$</text>
+  <rect x="808" y="277" width="9" height="17" fill="#4ADE80" filter="url(#phosphor)"/>
+  <rect width="1280" height="360" fill="url(#scan)" clip-path="url(#frame)" pointer-events="none"/>
+</svg>
